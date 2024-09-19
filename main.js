@@ -18,7 +18,7 @@ function generar(){
     } else {
         for(let i=0; i < numeroDigitado; i++){
             if(numeroDigitado < 8){
-                alert("No se puede generar la contraseña.\nLa cantidad de catacteres tiene que ser mayor o igual a 8\nIntenta nuevamente.");
+                alert("No se puede generar la contraseña.\nLa cantidad de caracteres tiene que ser mayor o igual a 8\nIntenta nuevamente.");
                 break;
             } else {
                 let caracterAleatorio =  cadenaCaracteres[Math.floor(Math.random() * cadenaCaracteres.length)];
