@@ -38,7 +38,7 @@ function comprobarContrasena(password){
     const tieneNumero = /\d/.test(contrasena.value);
     const tieneMayusculas = /[A-Z]/.test(contrasena.value);
     if(tieneNumero && tieneMayusculas){
-        alert("Contraseña Fuerte.\nLa contraseña incluye al menos un número y una mayúsculas.");
+        alert("Contraseña Fuerte.\nLa contraseña incluye al menos un número y una mayúscula.");
     } else{
         alert("Contraseña Débil.\nLa contraseña no incluye al menos un número ni una mayúsculas.\nInténtalo de nuevo.")
     }
