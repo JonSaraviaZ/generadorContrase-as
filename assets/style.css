@@ -358,25 +358,33 @@ h1 {
         gap: 40px;
     }
 
+    .texto__parrafo{
+        font-size: 20px;
+    }
+
     .container__input{
-        width:280px;
+        width:150px;
     }
 
     .boton{
         display:block;
         margin-top: 40px;
         margin-bottom: 20px;
+        height:60px;
         width:280px;
     }
 
     .boton__limpiar{
         margin-left: 0px;
+        height:60px;
         width:280px;
     }
 
     .container__contrasena{
+        height:60px;
         width:280px;
         margin-top: 20px;
         margin-left: 0px;
+        margin-bottom: 0px;
     }
 }
