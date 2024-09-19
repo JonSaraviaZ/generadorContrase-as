@@ -45,16 +45,18 @@ function comprobarContrasena(password){
 }
 
 function limpiar(){
-    if (cantidad.value=='' && cantidad.value ==''){
-        alert("Error: no hay datos previamente ingresados.");
-    } else {
+    let numeroDigitado = parseInt(cantidad.value);
+    
+    if (isNaN(numeroDigitado) || cantidad.value === '' || contrasena.value === ''){
+        alert("Se borraron los datos exitosamente.")
         contrasena.value = '';
-        cantidad.value='';
+        cantidad.value = '';
+    } else {
         alert("Se borraron los datos exitosamente.");
+        contrasena.value = '';
+        cantidad.value = '';
     }
 }
-
-
 
 
 
