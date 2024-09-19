@@ -299,7 +299,7 @@ h1 {
 }
 
 
-@media (min-width:1px) and (max-width: 575px){
+@media (min-width:376px) and (max-width: 575px){
     .container{
         min-height: 90vh;
     }
@@ -331,6 +331,52 @@ h1 {
 
     .container__contrasena{
         width:280px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:1px) and (max-width: 375px){
+
+
+    .container{
+        min-height: 40vh;
+    }
+
+    .container__informacion{
+        padding: 0rem;
+    }
+
+    h1{
+        font-size: 30px;
+        width:10px;
+        padding: 10px;
+    }
+
+    .container__campo{
+        display: block;
+        margin-left: 5px;
+        gap: 40px;
+    }
+
+    .container__input{
+        width:280px;
+    }
+
+    .boton{
+        display:block;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width:280px;
+    }
+
+    .boton__limpiar{
+        margin-left: 0px;
+        width:280px;
+    }
+
+    .container__contrasena{
+        width:280px;
+        margin-top: 20px;
         margin-left: 0px;
     }
 }
